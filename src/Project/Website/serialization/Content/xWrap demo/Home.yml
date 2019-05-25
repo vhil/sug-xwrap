@@ -126,13 +126,13 @@ Languages:
     Fields:
     - ID: "0ce6eb53-685c-4b4f-afec-ed0fd30bc188"
       Hint: Page title
-      Value: xWrap demo
+      Value: "xWrap - Sitecore Experience Wrapper"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20080407T105900Z
     - ID: "3eb710b1-2611-4350-8646-1adce39f6904"
       Hint: Navigation title
-      Value: xWrap demo
+      Value: Home
     - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
       Hint: __Valid to
       Value: 
@@ -140,9 +140,18 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "641d9b92-718e-43f8-91bc-569bc9d8553f"
+      Hint: Page body
+      Value: |
+        <p>Strongly-typed wrapping framework for Sitecore CMS.</p>
+        <p>xWrap is a small and light-weigh library created to improve the developer workflow when building Sitecore solutions.</p>
+    - ID: "7e7aedef-1e09-4103-ad6b-a11db57813f4"
+      Hint: Page image
+      Value: |
+        <image mediaid="{37AFCB4B-3550-48A0-9FB9-BB42B75770BB}" />
     - ID: "9338949c-7195-4c74-ab94-1af36e78b3ca"
       Hint: Meta title
-      Value: xWrap demo
+      Value: "xWrap - Sitecore Experience Wrapper"
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 

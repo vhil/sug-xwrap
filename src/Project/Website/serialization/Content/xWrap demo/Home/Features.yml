@@ -11,13 +11,29 @@ Languages:
     Fields:
     - ID: "0ce6eb53-685c-4b4f-afec-ed0fd30bc188"
       Hint: Page title
-      Value: Features
+      Value: "xWrap - functionality and features"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20190525T224007Z
     - ID: "3eb710b1-2611-4350-8646-1adce39f6904"
       Hint: Navigation title
       Value: Features
+    - ID: "641d9b92-718e-43f8-91bc-569bc9d8553f"
+      Hint: Page body
+      Value: |
+        <ul style="font-size: x-large;">
+            <li>provides functionality for strongly-typed wrapping fields</li>
+            <li>provides functionality for strongly-typed wrapping items</li>
+            <li>provides functionality for strongly-typed wrapping rendering parameters</li>
+            <li>provides functionality for MVC support based on strongly-typed view models</li>
+            <li>built on a <code>wrapper</code> design pattern</li>
+            <li>super light-weight</li>
+            <li>uses only standard Sitecore API, no inventions</li>
+            <li>native support for Sitecore Experience Editor out of the box</li>
+            <li>compliant with <a href=" http://helix.sitecore.net/" =""="" title="helix" rel="nofollow">helix principles and modular architecture
+            <li>provides convenient field and item extensions</li>
+            <li>fully configurable through sitecore include config files</li>
+        </a></li></ul>
     - ID: "9338949c-7195-4c74-ab94-1af36e78b3ca"
       Hint: Meta title
       Value: Features

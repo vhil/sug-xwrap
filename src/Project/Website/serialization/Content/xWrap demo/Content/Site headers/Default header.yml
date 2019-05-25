@@ -9,6 +9,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "06838665-72a1-4638-a762-0e277714cd89"
+      Hint: Header logo
+      Value: |
+        <image mediaid="{20A8925D-34C4-4A8F-9665-CD8115169ABD}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20190525T214813Z
