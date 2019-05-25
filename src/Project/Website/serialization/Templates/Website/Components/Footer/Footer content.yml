@@ -1,0 +1,14 @@
+﻿---
+ID: "560c3167-5bd7-449e-95fc-4ec0069a7de4"
+Parent: "92f4a528-16a6-4fea-b893-dbde7d99a008"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Website/Components/Footer/Footer content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T224143Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "134adc10-cb58-4f2c-8449-a2b4eb8ed4f8"
+Parent: "d7afcfeb-63ea-4b13-b35b-cf8a4654f172"
+Template: "92f4a528-16a6-4fea-b893-dbde7d99a008"
+Path: /sitecore/content/xWrap demo/Content/Site footers/Default footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T224201Z
+    - ID: "7c80541d-a7bd-4bde-87f2-b5c93c79307b"
+      Hint: Footer link
+      Value: |
+        <link text="Volodymyr Hil" linktype="external" url="https://www.linkedin.com/profile/view?id=AAMAAAxLwlQBcVpohTnaanOb0Gctl2RzQZwjHJo" anchor="" target="" />
+    - ID: "8cd3a971-eff5-4784-8466-a2fc1c77fe8b"
+      Hint: Footer signature
+      Value: Implemented by

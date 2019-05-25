@@ -1,0 +1,14 @@
+﻿---
+ID: "784e6607-c6c3-461f-a229-27769cd13c28"
+Parent: "ce1a59fc-3150-4699-bcb7-6a2e5b26b474"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/xWrap demo/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T214626Z

@@ -1,0 +1,44 @@
+﻿@using System.Web.Mvc.Html
+@using Sitecore.Mvc
+<!DOCTYPE html>
+<html>
+<head>
+	@Html.Sitecore().Placeholder("head")
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" />
+	<script src="/js/jquery.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="header-top">
+	@Html.Sitecore().Placeholder("header")
+</div>
+@Html.Sitecore().Placeholder("content")
+	
+<!-- footer -->
+<div class="footer-bottom">
+	@Html.Sitecore().Placeholder("footer")
+</div>
+
+<!-- FlexSlider -->
+<script defer src="/js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+	$(function () {
+		SyntaxHighlighter.all();
+	});
+	$(window).load(function () {
+		$('.flexslider').flexslider({
+			animation: "slide",
+			start: function (slider) {
+				$('body').removeClass('loading');
+			}
+		});
+	});
+</script>
+<!-- FlexSlider -->
+</body>
+</html>

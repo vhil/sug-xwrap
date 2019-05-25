@@ -1,0 +1,14 @@
+﻿---
+ID: "f88a4546-0869-41a3-a6b0-8029b41b07ab"
+Parent: "e1f15df4-3db9-4ff3-b10a-58471a2cad8d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Website/Components/Header/Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T214752Z

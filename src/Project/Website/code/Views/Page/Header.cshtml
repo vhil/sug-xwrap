@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+<div class="container">
+	<div class="logo">
+		<a href="/">
+			<img/>
+			@*@Model.SiteRoot.SiteLogo.Render()*@
+		</a>
+	</div>
+	@Html.Sitecore().Placeholder("main-navigation")
+</div>

@@ -1,0 +1,29 @@
+﻿---
+ID: "029370f2-26fd-4252-8716-5e0325cf5bb5"
+Parent: "ead4e087-9476-40cd-a15e-29de9d66e487"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Website/Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_orientation_portrait.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {6DFCD868-11BF-43D4-9497-2D0EBD2D764E}
+    {1F29690D-85AD-4F1D-8520-36ED44F72843}
+    {5C5F979C-1608-4DEA-9F31-820036DB38A0}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{AD3B7BDD-1EC9-44C9-BDFA-1AD0C0E42945}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T211353Z

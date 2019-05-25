@@ -1,0 +1,14 @@
+﻿---
+ID: "5cc777fc-41e7-4400-a617-b659425dc4f3"
+Parent: "f16c66be-b485-44a9-8211-d96fc75c6c17"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/PageContent/Rendering Parameters/Page content parameters/Pace content parameters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T225021Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "0e6e5195-e048-4676-a51e-6a6afde682c2"
+Parent: "452bbc74-755a-49d9-85d4-883765a93c0c"
+Template: "e1f15df4-3db9-4ff3-b10a-58471a2cad8d"
+Path: /sitecore/content/xWrap demo/Content/Site headers/Default header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T214813Z

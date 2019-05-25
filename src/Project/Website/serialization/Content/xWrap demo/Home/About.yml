@@ -1,0 +1,23 @@
+﻿---
+ID: "b6270dd6-bf13-4ae9-8f6f-8586efb6c5e7"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "029370f2-26fd-4252-8716-5e0325cf5bb5"
+Path: /sitecore/content/xWrap demo/Home/About
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce6eb53-685c-4b4f-afec-ed0fd30bc188"
+      Hint: Page title
+      Value: About
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T223956Z
+    - ID: "3eb710b1-2611-4350-8646-1adce39f6904"
+      Hint: Navigation title
+      Value: About
+    - ID: "9338949c-7195-4c74-ab94-1af36e78b3ca"
+      Hint: Meta title
+      Value: About

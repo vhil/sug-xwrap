@@ -1,0 +1,23 @@
+﻿---
+ID: "80fe1cf8-563a-47f4-8386-cb315058e243"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "029370f2-26fd-4252-8716-5e0325cf5bb5"
+Path: /sitecore/content/xWrap demo/Home/Features
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ce6eb53-685c-4b4f-afec-ed0fd30bc188"
+      Hint: Page title
+      Value: Features
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190525T224007Z
+    - ID: "3eb710b1-2611-4350-8646-1adce39f6904"
+      Hint: Navigation title
+      Value: Features
+    - ID: "9338949c-7195-4c74-ab94-1af36e78b3ca"
+      Hint: Meta title
+      Value: Features
