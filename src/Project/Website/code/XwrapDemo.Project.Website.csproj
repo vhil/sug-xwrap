@@ -102,6 +102,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\ServicesConfigurator.cs" />
+    <Compile Include="Controllers\PageController.cs" />
+    <Compile Include="Models\FooterViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="xWrapSitecoreTemplates.cs">
       <AutoGen>True</AutoGen>
@@ -138,10 +140,6 @@
     <ProjectReference Include="..\..\..\Feature\PageContent\code\Pintle.Feature.PageContent.csproj">
       <Project>{9b54d32a-4316-42a6-8dc1-0f823d460892}</Project>
       <Name>Pintle.Feature.PageContent</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Feature\Products\code\Pintle.Feature.Products.csproj">
-      <Project>{91f2fb61-2e89-41f4-8853-0a22de933f2a}</Project>
-      <Name>Pintle.Feature.Products</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\code\Pintle.Foundation.SitecoreExtensions.csproj">
       <Project>{c51b027e-b14b-4c0a-8bcb-fd6ebd5574c1}</Project>

@@ -1,6 +1,4 @@
-﻿using Xwrap;
-
-namespace Pintle.Foundation.SitecoreExtensions.Extensions
+﻿namespace Pintle.Foundation.SitecoreExtensions.Extensions
 {
 	using System;
 	using Sitecore.Data;
@@ -8,6 +6,7 @@ namespace Pintle.Foundation.SitecoreExtensions.Extensions
 	using Sitecore.Data.Managers;
 	using Sitecore.Links;
 	using Sitecore.Globalization;
+	using Xwrap;
 
 	public static class ItemExtensions
 	{

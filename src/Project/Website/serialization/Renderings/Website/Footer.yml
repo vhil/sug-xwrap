@@ -1,7 +1,7 @@
 ﻿---
 ID: "bffb92e7-ab9f-409d-9954-6fe067e35f4a"
 Parent: "66f15711-b1b4-4876-aba0-94afee225d16"
-Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Project/Website/Footer
 DB: master
 SharedFields:
@@ -11,6 +11,12 @@ SharedFields:
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
   Value: /Views/Page/Footer.cshtml
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: Footer
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: XwrapDemo.Project.Website.Controllers.PageController, XwrapDemo.Project.Website
 Languages:
 - Language: en
   Versions:
