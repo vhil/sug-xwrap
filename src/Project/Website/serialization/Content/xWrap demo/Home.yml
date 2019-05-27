@@ -145,6 +145,9 @@ Languages:
       Value: |
         <p>Strongly-typed wrapping framework for Sitecore CMS.</p>
         <p>xWrap is a small and light-weigh library created to improve the developer workflow when building Sitecore solutions.</p>
+          <p>After working for a while with <a href="https://github.com/Fortis-Collection/fortis" data-slimstat="5">Fortis</a> as a stronly-typed wrapper framework for accessing Sitecore items as well as rendering engine I came up with the conclusion that it is not possible to use it in a solution built on Helix principles, as Fortis needs to know the whole template inheritance tree in order to generate the model correctly. Well, I guess there could be a way to make it work, I just didn’t find one. So I needed something smilar but compliant with Helix principles. There was of course a choice to use Glass mapper or Synthesis, however in my opinion, Fortis has a list of perfect architectural decisions and I wanted to have something similar.<br />
+        That’s why I implemented my own&nbsp;<a href="https://github.com/vhil/xWrap/" data-slimstat="5">xWrap</a>&nbsp;mini-framework. Actually, I did that a while ago and have been using it on at least 5 projects with different Sitecore versions so I can tell that it is quite well tested, mature enough to share and well performing.<br />
+        It has inherited a lot of approaches from Fortis, however has been even more simplified, de-coupled and finally helix compliant. If you are still interested, please read below about how to set it up and use 🙂</p>
     - ID: "7e7aedef-1e09-4103-ad6b-a11db57813f4"
       Hint: Page image
       Value: |

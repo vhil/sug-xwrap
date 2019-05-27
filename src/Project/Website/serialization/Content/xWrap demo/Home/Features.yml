@@ -30,10 +30,14 @@ Languages:
             <li>super light-weight</li>
             <li>uses only standard Sitecore API, no inventions</li>
             <li>native support for Sitecore Experience Editor out of the box</li>
-            <li>compliant with <a href=" http://helix.sitecore.net/" =""="" title="helix" rel="nofollow">helix principles and modular architecture
+            <li>compliant with <a href=" http://helix.sitecore.net/" =""="" title="helix" rel="nofollow">helix principles and modular architecture</a>
             <li>provides convenient field and item extensions</li>
             <li>fully configurable through sitecore include config files</li>
-        </a></li></ul>
+        </li></ul>
+    - ID: "7e7aedef-1e09-4103-ad6b-a11db57813f4"
+      Hint: Page image
+      Value: |
+        <image mediaid="{48BA63ED-7BEB-4135-8E26-1040E2BF3F6B}" />
     - ID: "9338949c-7195-4c74-ab94-1af36e78b3ca"
       Hint: Meta title
       Value: Features
