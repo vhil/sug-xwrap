@@ -1,20 +1,25 @@
-﻿<div class="container">
+﻿@using Pintle.Foundation.SitecoreExtensions.Extensions
+@model XwrapDemo.Project.Website.Models.FooterViewModel
+
+<div class="container">
 	<div class="footer-nav">
 		<ul>
 			<li>
-				<a href="/">
-					TODO: Footer navigation
-				</a>
+				@foreach (var nav in Model.Navigation)
+				{
+					<a href="@nav.GenerateUrl()">
+						@nav.NavigationTitle
+					</a>
+				}
+				
 			</li>
 			<div class="clearfix"> </div>
 		</ul>
 	</div>
 	<div class="bottom">
 		<p>
-			TODO: Signature 
-			<a href="/" target="_blank">
-				TODO: Signature link
-			</a>
+			@Model.RenderingItem.FooterSignature 
+			@Model.RenderingItem.FooterLink
 		</p>
 	</div>
 	<div class="clearfix"> </div>

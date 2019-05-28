@@ -7,10 +7,10 @@ namespace Pintle.Feature.Navigation
 {
 	public class NavigationService
 	{
-		public object GetMainNavigation()
+		public IEnumerable<_NavigationItem> GetMainNavigation()
 		{
-			//TODO;
-			return null;
+			var root = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.StartPath);
+			return root.WrapChildren<_NavigationItem>().Where(x => !x.HideFromNavigation.Value);
 		}
 	}
 }

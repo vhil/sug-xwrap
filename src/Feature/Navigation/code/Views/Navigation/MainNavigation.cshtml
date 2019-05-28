@@ -1,11 +1,16 @@
-﻿@model dynamic
+﻿@using Pintle.Foundation.SitecoreExtensions.Extensions
+@model IEnumerable<Pintle.Feature.Navigation.SitecoreTemplates._NavigationItem>
 
 <div class="head-nav">
 	<span class="menu"> </span>
 	<ul>
-		<li>
-			<a href="/">TODO: Main navigation</a>
-		</li>
+		@foreach (var nav in Model)
+		{
+			<li>
+				<a href="@nav.GenerateUrl()">@nav.NavigationTitle</a>
+			</li>
+		}
+	
 		<div class="clearfix"> </div>
 	</ul>
 </div>

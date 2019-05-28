@@ -1,8 +1,9 @@
 ﻿@using Sitecore.Mvc
+@model Xwrap.Mvc.IViewModel<XwrapDemo.Project.Website.SitecoreTemplates.HeaderItem>
 <div class="container">
 	<div class="logo">
 		<a href="/">
-			TODO: Header logo <img />
+			@Model.RenderingItem.HeaderLogo
 		</a>
 	</div>
 	@Html.Sitecore().Placeholder("main-navigation")

@@ -1,3 +1,5 @@
-﻿<title>TODO: Meta title</title>
-<meta name="descriptiopn" content="TODO: Meta description" />
-<meta name="keywords" content="TODO: Meta keywords" />
+﻿@model Xwrap.Mvc.IViewModel<Pintle.Feature.Metadata.SitecoreTemplates._MetadataItem>
+
+<title>@Model.RenderingItem.MetaTitle.Render(editing:false)</title>
+<meta name="descriptiopn" content="@Model.RenderingItem.MetaDescription.RawValue" />
+<meta name="keywords" content="@Model.RenderingItem.MetaKeywords.RawValue" />
